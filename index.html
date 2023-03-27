@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <style>
+      .container {
+        background-color: rgb(238, 247, 248);
+      }
+      header,
+      nav {
+        background-color: cadetblue;
+      }
+      a{
+        text-decoration: none;
+      }
+    </style>
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container border">
+      <header class="row justify-content-center text-white mb-1">
+        <h1>Grayscale Photos</h1>
+      </header>
+
+      <nav class="row text-center mb-1">
+        <div class="col border p-2">
+          <a href="#" class="text-white">Scenery</a>
+        </div>
+        <div class="col border p-2">
+          <a href="#" class="text-white">Humans</a>
+        </div>
+        <div class="col border p-2">
+          <a href="#" class="text-white">Animals</a>
+        </div>
+        <div class="col border p-2">
+          <a href="#" class="text-white">Events</a>
+        </div>
+        <div class="col border p-2">
+          <a href="#" class="text-white">Sports</a>
+        </div>
+      </nav>
+
+      <main class="row text-center">
+        <div class="col-md-4 col-12 border border-white d-flex flex-column justify-content-between">
+          <img
+            class="rounded img-fluid"
+            src="https://picsum.photos/500?random=12"
+            alt="random photo"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex
+            temporibus, vel nisi laboriosam minima? Aliquid blanditiis cumque
+            recusandae soluta!
+          </p>
+          <a class="btn btn-outline-dark" href="https://unsplash.com/">Unsplash</a>
+        </div>
+        <div class="col-md-4 col-12 border border-white d-flex flex-column justify-content-between">
+          <img
+            class="rounded img-fluid"
+            src="https://picsum.photos/500?random=10"
+            alt="random photo"
+          />
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a class="btn btn-outline-dark" href="https://pixabay.com/">Pixabay</a>
+
+        </div>
+        <div class="col-md-4 col-12 border border-white d-flex flex-column justify-content-between">
+          <img
+            class="img-fluid"
+            src="https://picsum.photos/500?random=4"
+            alt="random photo"
+          />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, error.</p>
+          <a class="btn btn-outline-dark" href="https://pexels.com/">Pexels</a>
+
+        </div>
+      </main>
+      <footer class="row mt-2 p-1">
+        <p>Copyright &copysr;2023 <a href="">My site</a></p>      
+    </footer>
+    </div>
+  </body>
+</html>
